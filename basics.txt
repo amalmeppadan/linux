@@ -1,0 +1,30 @@
+pwd :present working directory
+cd/ :change directory
+cd .. :previous directory
+cat:concatenate /open
+more:open
+less:open
+mkdir : make directory
+touch :  make empty file
+echo : print
+chmode :change mode
+hostname : computername
+ls:list directory
+ls -l -a -t: -l:longlist;-a:hidden file; -t:time
+tar -cvf backup.tar /home/username :backup
+date +'%A,%B,%D,%Y' :print date along with full day;month;date;year
+id :(username;userid;groupid)
+who -uH :display name,time etc(u:username,H:Heading)
+echo $path :default path
+type : find out where a particular shell is taken from
+loacte : use to find command path
+history :(eg:history7 : shown your history about 7 command line)
+!! : shows the complete history about yur previous commandline
+!n : run command number (eg:!38)
+!? string :(run command contain string)
+
+conneciting and expanding commands:
+| : join two or more command
+& : run command in background
+; : run two commandline in the same line
+{},() : used in arithematic operation , to give priority
